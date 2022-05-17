@@ -34,9 +34,9 @@ notice, you need client and server runs concurrently in different terminal sessi
 
 ## Client-side usage(PORT: 3000)
 ```terminal
-$ cd tinder-Backend   // go to client folder
+$ cd tinder-clone   // go to client folder
 $ npm i       // npm install packages
-$ nodemon server // run it locally
+$ npm start // run it locally
 
 // deployment for client app
 $ npm run build // this will compile the react code using webpack and generate a folder called docs in the root level
@@ -44,5 +44,8 @@ $ npm run start // this will run the files in docs, this behavior is exactly the
 ```
 
 ## Server-side usage(PORT: 8001)
-
+```terminal
+$ cd tinder-Backend   // go to client folder
+$ npm i       // npm install packages
+$ nodemon server // run it locally
 
