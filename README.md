@@ -32,20 +32,20 @@ tinder-clone/
 
 notice, you need client and server runs concurrently in different terminal session, in order to make them talk to each other
 
-## Client-side usage(PORT: 3000)
+## Frontend-side usage(PORT: 3000)
 ```terminal
-$ cd tinder-clone   // go to client folder
+$ cd tinder-clone   // go to frontend folder
 $ npm i       // npm install packages
 $ npm start // run it locally
 
-// deployment for client app
+// deployment for tinder-clone app
 $ npm run build // this will compile the react code using webpack and generate a folder called docs in the root level
 $ npm run start // this will run the files in docs, this behavior is exactly the same how gh-pages will run your static site
 ```
 
-## Server-side usage(PORT: 8001)
+## Backend-side usage(PORT: 8001)
 ```terminal
-$ cd tinder-Backend   // go to client folder
+$ cd tinder-Backend   // go to backend folder
 $ npm i       // npm install packages
 $ nodemon server // run it locally
 
